@@ -1,0 +1,5 @@
+$user = [environment]::username
+$env:path += ";C:\users\levi\scripts"
+set-alias c clear
+set-alias res resize
+set-alias "cd \~" "cd c:\users\levi"

@@ -1,10 +1,10 @@
 #
-# Cookbook Name:: windowsWorkstation
+# Cookbook Name:: bootstrap_windows
 # Recipe:: default
 #
-# Copyright (C) 2015 YOUR_NAME
-#
-# All rights reserved - Do Not Redistribute
+# Copyright (C) 2016 Levi Smith
 #
 
-include_recipe "workstation::packages"
+include_recipe 'workstation::config'
+include_recipe 'workstation::packages'
+include_recipe 'workstation::atom'
