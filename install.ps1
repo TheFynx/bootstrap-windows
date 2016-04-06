@@ -133,7 +133,7 @@ $env:Path += ";C:\ProgramData\chocolatey\bin"
 C:\ProgramData\chocolatey\bin\choco.exe install -y git
 
 # Add ChefDK and Git to the path
-$env:Path += ";C:\opscode\chefdk\bin;C:\Windows\Program Files(x86)\Git\bin"
+$env:Path += ";C:\opscode\chefdk\bin;C:\Windows\Program Files\Git\bin"
 
 Push-Location $tempInstallDir
 
