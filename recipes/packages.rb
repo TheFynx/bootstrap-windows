@@ -8,7 +8,7 @@
 include_recipe 'chocolatey'
 
 # Frameworks && Codebases
-%w(git ruby rubygems jdk8 powershell python dotnet3.5 dontnet4.5.2).each do |pack|
+%w(git ruby jdk8 powershell python dotnet3.5 dontnet4.5.2).each do |pack|
   chocolatey pack
 end
 
