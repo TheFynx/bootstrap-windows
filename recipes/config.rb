@@ -5,8 +5,7 @@
 # Copyright (C) 2016 Levi Smith
 #
 
-
-%w{public private gists}.each do |dir|
+%w(public private gists).each do |dir|
   directory "#{node['home']}/git/github/#{dir}" do
     owner node['user']
     mode 00755
@@ -16,7 +15,7 @@
   end
 end
 
-%w{public private gists}.each do |dir|
+%w(public private gists).each do |dir|
   directory "#{node['home']}/git/gitbucket/#{dir}" do
     owner node['user']
     mode 00755
