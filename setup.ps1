@@ -22,7 +22,7 @@ $env:Path += ";C:\opscode\chefdk\bin"
 
 # Write Out the Berksfile
 [System.IO.File]::WriteAllLines($CHEFDIR + 'Berksfile','source 'https://supermarket.chef.io'', $Utf8NoBomEncoding)
-[System.IO.File]::AppendAllText($CHEFDIR + 'Berksfile','cookbook "bootstrap_linux", path:' + '"' + $PSCommandPath + '"' + ([Environment]::NewLine), $Utf8NoBomEncoding)
+[System.IO.File]::AppendAllText($CHEFDIR + 'Berksfile','cookbook "bootstrap_windows", git: 'https://github.com/TheFynx/bootstrap-windows.git'' + ([Environment]::NewLine), $Utf8NoBomEncoding)
 
 # Create client.rb
 [System.IO.File]::WriteAllLines($CHEFDIR + 'client.rb','cookbook_path File.join(Dir.pwd, 'berks-cookbooks')', $Utf8NoBomEncoding)
