@@ -124,11 +124,14 @@ if ( $version -like "$targetChefDk*" ) {
 # Install Chocolatey
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
+# Add Chocolatey to path
+$env:Path += ";C:\ProgramData\chocolatey\bin"
+
 # Install Git
 C:\ProgramData\chocolatey\bin\choco.exe install -y git
 
 # Add ChefDK and Git to the path
-$env:Path += ";C:\opscode\chefdk\bin;C:\Windows\Program Files(x86)\Git\bin\"
+$env:Path += ";C:\opscode\chefdk\bin;C:\Windows\Program Files(x86)\Git\bin"
 
 Push-Location $tempInstallDir
 
