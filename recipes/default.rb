@@ -5,6 +5,6 @@
 # Copyright (C) 2016 Levi Smith
 #
 
-include_recipe 'workstation::config'
-include_recipe 'workstation::packages'
-include_recipe 'workstation::atom'
+include_recipe 'bootstrap_windows::config'
+include_recipe 'bootstrap_windows::packages'
+include_recipe 'bootstrap_windows::atom'
