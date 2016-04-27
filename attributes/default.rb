@@ -1,8 +1,3 @@
-# User config
-default['user'] = 'levi'
-default['group'] = 'Administrators'
-default['home'] = 'C:\Users\levi'
-
 # Config Options
 default['config']['github'] = 'true'
 default['config']['gitbucket'] = 'true'
