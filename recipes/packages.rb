@@ -13,7 +13,7 @@ include_recipe 'chocolatey'
 end
 
 # Web Tools
-%w(google-chrome dropbox lastpass transgui).each do |pack|
+%w(googlechrome dropbox lastpass transgui).each do |pack|
   chocolatey pack
 end
 
