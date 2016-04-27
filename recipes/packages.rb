@@ -18,12 +18,12 @@ end
 end
 
 # System Tools
-%w(7zip vlc virtualclonedrive virtualbox virtualbox.extensionpack vboxguestadditions.install).each do |pack|
+%w(7zip vlc virtualclonedrive virtualbox virtualbox.extensionpack).each do |pack|
   chocolatey pack
 end
 
 # Dev Tools && Terminals
-%w(conemu mobaxterm cygwin)
+%w(conemu mobaxterm cygwin packer terraform)
 
 # Entertainment
 %w(steam).each do |pack|
