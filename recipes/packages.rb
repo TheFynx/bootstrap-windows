@@ -22,6 +22,9 @@ end
   chocolatey pack
 end
 
+# Dev Tools && Terminals
+%w(conemu mobaxterm cygwin)
+
 # Entertainment
 %w(steam).each do |pack|
   chocolatey pack

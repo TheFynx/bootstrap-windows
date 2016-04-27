@@ -21,7 +21,7 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Break
 }
 
-$targetChefDk = '0.12.0'
+$targetChefDk = '0.13.21'
 $bootstrapWindows = 'bootstrap_windows'
 
 function promptContinue {
