@@ -23,7 +23,7 @@ end
 end
 
 # Dev Tools && Terminals
-%w(conemu mobaxterm cygwin packer terraform visualstudiocode).each do |pack|
+%w(conemu packer terraform visualstudiocode).each do |pack|
   chocolatey pack
 end
 
