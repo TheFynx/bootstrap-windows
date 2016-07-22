@@ -18,7 +18,7 @@ end
 end
 
 # System Tools
-%w(7zip vlc virtualclonedrive virtualbox virtualbox.extensionpack).each do |pack|
+%w(7zip vlc virtualclonedrive virtualbox).each do |pack|
   chocolatey pack
 end
 
