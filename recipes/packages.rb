@@ -23,7 +23,9 @@ end
 end
 
 # Dev Tools && Terminals
-%w(conemu mobaxterm cygwin packer terraform visualstudiocode)
+%w(conemu mobaxterm cygwin packer terraform visualstudiocode).each do |pack|
+  chocolatey pack
+end
 
 # Entertainment
 %w(steam).each do |pack|
