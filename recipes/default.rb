@@ -7,4 +7,3 @@
 
 include_recipe 'bootstrap_windows::config'
 include_recipe 'bootstrap_windows::packages'
-include_recipe 'bootstrap_windows::atom'

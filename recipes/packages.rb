@@ -23,7 +23,7 @@ end
 end
 
 # Dev Tools && Terminals
-%w(conemu mobaxterm cygwin packer terraform)
+%w(conemu mobaxterm cygwin packer terraform visualstudiocode)
 
 # Entertainment
 %w(steam).each do |pack|
